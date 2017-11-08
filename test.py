@@ -9,3 +9,4 @@ myMammal.printMembers()
 # Create an object of Birds class & call a method of it
 myBird = Birds()
 myBird.printMembers()
+

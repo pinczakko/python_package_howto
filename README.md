@@ -1,6 +1,16 @@
 # README
 
-This is just a placeholder
+This project shows:
+
+1. How to create very simple Python 2 package
+
+2. How to test the package by "staging" it into the system's python site-package
+
+3. How to "unstage the package from the system's python site-package
+
+4. How to install the package into the system's python site-package
+
+5. How to uninstall the package from the system's python site-package
 
 # How to Use
 
@@ -18,3 +28,5 @@ This is just a placeholder
 - Use: ```uninstall.sh``` to uninstall the current development dir package from the 
   global python2 site-packages directory and unregister the package from easy_install "database".
 
+- Use: ```run_test.sh``` to test the installation of the package. Look at the output of ```test.py``` in 
+  the console to check whether the package installation/staging is working or not.
