@@ -6,7 +6,7 @@ This project shows:
 
 2. How to test the package by "staging" it into the system's python site-package
 
-3. How to "unstage the package from the system's python site-package
+3. How to "unstage" the package from the system's python site-package
 
 4. How to install the package into the system's python site-package
 
@@ -30,3 +30,15 @@ This project shows:
 
 - Use: ```run_test.sh``` to test the installation of the package. Look at the output of ```test.py``` in 
   the console to check whether the package installation/staging is working or not.
+
+# Other Feature(s)
+
+If you want to test staging/installing an executable python code, you can uncomment the entry_points 
+parameter in ```setup.py```. In Arch Linux, the python entry point executable for the package will be 
+placed in ```/usr/bin```. Other distributions/systems may vary.
+
+# Further Reading
+
+- http://setuptools.readthedocs.io/en/latest/setuptools.html
+
+- http://setuptools.readthedocs.io/en/latest/easy_install.html
